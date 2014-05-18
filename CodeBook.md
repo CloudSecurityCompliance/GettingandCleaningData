@@ -80,7 +80,8 @@ Remaining column names
 * "Activity"
 
 ##Detailed Script Instruction 
-There are 10 steps in the run-analysis R script
+There are 10 steps in the run-analysis R script.
+
 1. Step 1 No transformation. Each train data set was read.
 2. Step 2 No transformation. Each train data set was combined.
 3. Step 3 No transformation. Each test data set was read.
@@ -106,7 +107,7 @@ This outlines the transformation if any applied at each step of the script.
 5. Step 5 Merge Train and Test Data Set together
 6. Step 6 Replaced numeric activity numbers with descriptive activity names
 7. Step 7 Selected a subset of columns as detailed in Summary Choices section for further processing.
-8. Step8 Replaced chosen columns names with more appropriate labels.
+8. Step 8 Replaced chosen columns names with more appropriate labels.
 9. Step 9 has multiple steps in the creation of a second independent tidy data set with the average of each variable for each activity and each subject. 
   * First Calculate Mean of each Mean column for each row
   * Second Calculate Mean of each STD column for each row
