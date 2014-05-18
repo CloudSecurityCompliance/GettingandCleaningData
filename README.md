@@ -1,12 +1,12 @@
 ## READ ME FOR THE GETTING AND CLEANING PROJECT
 ===============================================
 
-## Data Set Abstract
+##Data Set Abstract
 Human Activity Recognition database built from the recordings of 30 subjects performing
 activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded
 inertial sensors.
 
-## Raw Dataset Information
+##Raw Dataset Information
 No transformation was done on the raw dataset. The data was used as is in the Script.
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket
@@ -26,12 +26,13 @@ gravity. The gravitational force is assumed to have only low frequency component
 therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of
 features was obtained by calculating variables from the time and frequency domain. 
 
+There are 10299 records based on 30 users and 6 activities.
+
 ##Data Attribute Information
 For each record in the dataset it is provided: 
 * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
 * Triaxial Angular velocity from the gyroscope. 
 * A 561-feature vector with time and frequency domain variables. 
-* 10299 instance based on 30 users and 6 activities
 * Its activity label. 
 * An identifier of the subject who carried out the experiment.
 * Data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
