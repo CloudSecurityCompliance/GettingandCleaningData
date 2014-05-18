@@ -14,12 +14,12 @@ For each record in the dataset it is provided:
 
 ##Summary Choices
 Choice 1: Replaced the numeric activity labels with the following labels
-1 to WALKING
-2 to WALKING_UPSTAIRS
-3 to WALKING_DOWNSTAIRS
-4 to SITTING
-5 to STANDING
-6 to LAYING
+* 1 to WALKING
+* 2 to WALKING_UPSTAIRS
+* 3 to WALKING_DOWNSTAIRS
+* 4 to SITTING
+* 5 to STANDING
+* 6 to LAYING
 
 Choice 2 and Choice 3:
 A decision was made to select from the 561 feature vector the columns that
