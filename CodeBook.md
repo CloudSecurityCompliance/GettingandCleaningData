@@ -80,7 +80,7 @@ Remaining column names
 * "Activity"
 
 ##Detailed Script Instruction 
-There are 10 steps in the run-analysis.R script
+There are 10 steps in the run-analysis R script
 1. Step 1 No transformation. Each train data set was read.
 2. Step 2 No transformation. Each train data set was combined.
 3. Step 3 No transformation. Each test data set was read.
@@ -90,10 +90,10 @@ There are 10 steps in the run-analysis.R script
 7. Step 7 Transformed by selecting a subset of the 561 variables according to Choice 2 and 3.
 8. Step8 Transformed chosen columns names with more appropriate labels as per Choice 2 and 3. No transformation was done on the data.
 9. Step 9 Several mathematical transformations were conducted.
-* First Calculated the Mean of each Mean column for each row.
-* Second Calculated Mean of each STD column for each row.
-* Third Calculated Mean of each column aggregated by user then by activity
-* Fourth Created a new table of that resulted in 180 rows (30 users by 6 activity) and 4 columns (User, Activity, Mean of Means,Mean of STD)
+  * First Calculated the Mean of each Mean column for each row.
+  * Second Calculated Mean of each STD column for each row.
+  * Third Calculated Mean of each column aggregated by user then by activity
+  * Fourth Created a new table of that resulted in 180 rows (30 users by 6 activity) and 4 columns (User, Activity, Mean of Means,Mean of STD)
 10. Step 10 Created a tab delimited text file called: newdataanalysis.txt
 
 ##Experimental Study Design 
@@ -108,8 +108,8 @@ This outlines the transformation if any applied at each step of the script.
 7. Step 7 Selected a subset of columns as detailed in Summary Choices section for further processing.
 8. Step8 Replaced chosen columns names with more appropriate labels.
 9. Step 9 has multiple steps in the creation of a second independent tidy data set with the average of each variable for each activity and each subject. 
-* First Calculate Mean of each Mean column for each row
-* Second Calculate Mean of each STD column for each row
-* Third Calculate Mean of each column by user by activity
-* Fourth Create a new table of that has 180 rows (30 users by 6 activity) and 4 columns (User, Activity, Mean of Means,Mean of STD)
+  * First Calculate Mean of each Mean column for each row
+  * Second Calculate Mean of each STD column for each row
+  * Third Calculate Mean of each column by user by activity
+  * Fourth Create a new table of that has 180 rows (30 users by 6 activity) and 4 columns (User, Activity, Mean of Means,Mean of STD)
 10. Step 10 Write dataframe to Tab delimited file called: newdataanalysis.txt
