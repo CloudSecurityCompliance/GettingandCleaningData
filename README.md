@@ -39,7 +39,7 @@ For each record in the dataset it is provided:
 
 ##How to run the scripts 
 There is only script that needs to be executed and that script does not require any parameters to be run.
-The script is run_analysis.R
+* The script is run_analysis.R
 
 ##High level description of the script
 Detailed information is available in the CodeBook.md
